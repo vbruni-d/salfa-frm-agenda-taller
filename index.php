@@ -171,11 +171,6 @@
                 <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;background-color:#ffffff;">
                     <tbody>
                         <tr>
-                            <td align="center">
-                                <img src="./Mailing bienvenida_files/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="display:block;" class="img" width="600" alt="linea">
-                            </td>
-                        </tr>
-                        <tr>
                             <td style="background-color:#ffffff;padding:3% 5%;" bgcolor="#ffffff">
                                 <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;">
                                     <tbody>
@@ -197,7 +192,7 @@
                                                 &nbsp;
                                             </td>
                                             <td align="right" width="30%">
-                                                <img src="./Mailing bienvenida_files/6cc0f022-1988-4738-90a4-4b11c10b2a8b.png" alt="Salfa" width="100">
+                                                <img src="./assets/6cc0f022-1988-4738-90a4-4b11c10b2a8b.png" alt="Salfa" width="100">
                                             </td>
                                         </tr>
                                     </tbody>
