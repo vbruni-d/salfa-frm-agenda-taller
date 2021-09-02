@@ -164,8 +164,8 @@
         </div>
 
 
-        <div>
-            <img src="assets/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="width:fit-content;">
+        <div style="min-width: 100%;">
+            <img src="assets/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="width: 100%; object-fit: contain;">
         </div>
 
 
