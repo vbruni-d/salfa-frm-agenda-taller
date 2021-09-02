@@ -405,7 +405,8 @@ input {
 }
 
 .input-lbl{
-    display: block !important;
+    display: inline-block !important;
+    width: 150px !important;
 }
 
 .txt-input:focus{
