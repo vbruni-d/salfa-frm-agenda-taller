@@ -17,6 +17,11 @@
         data-sap-cp-key="4D861AB588C702C4A01B7F0DBEAAF2D4B06FD66D"
         class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
         data-sap-cp-progres-enabled="false" data-sap-cp-version="20.0.5">
+
+        <div>
+            <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png">
+        </div>
+
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
             data-sap-cp-key="141879550503ABEFD923F9E014C843CBC03CC139"
             class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
@@ -157,6 +162,13 @@
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
         </div>
+
+
+        <div>
+            
+        </div>
+
+
     </form>
 </body>
 
