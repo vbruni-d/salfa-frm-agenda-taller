@@ -18,8 +18,8 @@
         class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
         data-sap-cp-progres-enabled="false" data-sap-cp-version="20.0.5">
 
-        <div>
-            <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png">
+        <div style="display: flex; justify-content: center;">
+            <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
         </div>
 
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
