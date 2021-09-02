@@ -18,7 +18,7 @@
         class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
         data-sap-cp-progres-enabled="false" data-sap-cp-version="20.0.5">
 
-        <div style="display: flex; justify-content: center;">
+        <div style="display: flex; justify-content: center; margin-bottom: 30px;">
             <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
         </div>
 
@@ -165,7 +165,7 @@
 
 
         <div>
-            
+            <img src="assets/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="width:fit-content;">
         </div>
 
 
