@@ -18,7 +18,7 @@
         class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
         data-sap-cp-progres-enabled="false" data-sap-cp-version="20.0.5">
 
-        <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+        <div style="display: flex; justify-content: center; margin-bottom: 50px;">
             <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
         </div>
 
@@ -153,7 +153,7 @@
                     style="">
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+                    <div style="display: flex; justify-content: center; margin-bottom: 30px; text-align: center; align-items: center;">
                         <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button>
                     <div>
                     <span id="__text323"
