@@ -25,7 +25,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-SMTP_ADDR"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"><label id="__label116" class="sapCpLabel sapCpLabelRequired input-lbl "
+                    style=""><label id="__label116" class="sapCpLabel sapCpLabelRequired input-lbl "
                         for="__input65">Correo electrónico</label></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <input id="__input65" class="sapCpInput txt-input" type="email" required="required" maxlength="241"
@@ -38,7 +38,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-TELNR_MOBILE"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"><label id="__label117" class="sapCpLabel sapCpLabelRequired input-lbl"
+                    style=""><label id="__label117" class="sapCpLabel sapCpLabelRequired input-lbl"
                         for="__input66">Teléfono celular</label></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <input id="__input66" class="sapCpInput txt-input" type="tel" required="required" maxlength="30"
@@ -64,7 +64,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"><label id="__label118" class="sapCpLabel" for="__down39">Agendamiento</label>
+                    style=""><label id="__label118" class="sapCpLabel" for="__down39">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down39" class="sapCpDropDown">
@@ -79,7 +79,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"><label id="__label119" class="sapCpLabel" for="__down40">Agendamiento</label>
+                    style=""><label id="__label119" class="sapCpLabel" for="__down40">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down40" class="sapCpDropDown">
@@ -94,7 +94,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"><label id="__label120" class="sapCpLabel" for="__down41">Agendamiento</label>
+                    style=""><label id="__label120" class="sapCpLabel" for="__down41">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down41" class="sapCpDropDown">
@@ -109,7 +109,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"></div>
+                    style=""></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box39" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label121"
                         class="sapCpLabel sapCpLabelRequiredBefore">Confirma hora agenda </label>
@@ -121,7 +121,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"></div>
+                    style=""></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box40" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label122"
                         class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller </label>
@@ -133,7 +133,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"></div>
+                    style=""></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box41" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label123"
                         class="sapCpLabel sapCpLabelRequiredBefore">Cancelar hora taller </label>
@@ -145,7 +145,7 @@
                 class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="width: 20%;"></div>
+                    style=""></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <button id="__button47" class="sapCpButton" type="button">Enviar</button><span id="__text323"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene
