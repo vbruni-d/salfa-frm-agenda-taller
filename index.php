@@ -11,7 +11,7 @@
     <title>Agenda taller</title>
 </head>
 
-<body class="sapCpBody cuerpo">
+<body class="sapCpBody cuerpo" style="padding-bottom: 40px;">
     <form action="integrationScript.php" method="POST" 
         id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage"
         data-sap-cp-key="4D861AB588C702C4A01B7F0DBEAAF2D4B06FD66D"
