@@ -147,7 +147,7 @@
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
                     style=""></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <button id="__button47" class="sapCpButton" type="button">Enviar</button><span id="__text323"
+                    <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button><span id="__text323"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene
                         todos los campos correctamente.</span><span id="__text324"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error
