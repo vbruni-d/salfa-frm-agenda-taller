@@ -166,6 +166,83 @@
 
         <div style="min-width: 100%;">
             <img src="assets/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="width: 100%; object-fit: contain;">
+
+            <div>
+                <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;background-color:#ffffff;">
+                    <tbody>
+                        <tr>
+                            <td align="center">
+                                <img src="./Mailing bienvenida_files/7dd2a8da-76a9-4a75-82ba-8fc990870f3c.png" style="display:block;" class="img" width="600" alt="linea">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#ffffff;padding:3% 5%;" bgcolor="#ffffff">
+                                <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="left">
+                                                <a href="https://www.facebook.com/Salfachile">
+                                                <img src="./assets/1612227d-dd70-4b80-bf9b-a7874ea4f689.png" width="23" alt="Facebook"></a>
+                                            </td>
+                                            <td align="left">
+                                                <a href="https://www.instagram.com/salfachile/">
+                                                <img src="./assets/f91d82f8-8a65-46f3-aa5b-545abaf27ad3.png" width="23" alt="Instagram"></a>
+                                            </td>
+                                            <td align="left">
+                                                <a href="https://www.youtube.com/user/SalfaChile">
+                                                <img src="./assets/da008e5e-2941-4576-b9f7-8e2df5d0c2a8.png" width="23" alt="Youtube"></a>
+                                            </td>
+                        
+                                            <td width="50%" class="footerSpaceRrss">
+                                                &nbsp;
+                                            </td>
+                                            <td align="right" width="30%">
+                                                <img src="./Mailing bienvenida_files/6cc0f022-1988-4738-90a4-4b11c10b2a8b.png" alt="Salfa" width="100">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#EDEDED;padding:3% 5%;" bgcolor="#EDEDED">
+                                <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="right" width="30%" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;">
+                                                Revisa nuestras sucursales: <br>
+                                                <a href="https://www.salfa.cl/" style="text-decoration:none;color:#002E5A;">
+                                                    <strong style="font-size:18px;">salfa.cl</strong>
+                                                </a>
+                                            </td>
+                    
+                                            <td width="40%" class="footerSpace">
+                                                &nbsp;
+                                            </td>
+                                            <td align="right" width="19%" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;">
+                                                Contáctanos al: <br>
+                                                <a href="tel:6003606200" style="text-decoration:none;color:#002E5A;">
+                                                    <strong style="font-size:18px;">600 360 6200</strong>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-family:Arial, Helvetica, sans-serif;font-size:10px;color:#757575;text-align:center;padding-top:20px;padding-left:30px;padding-right:30px;">
+                                <span style="text-transform: uppercase; font-size: 13px;"></span>
+                                Copyright © 2021 Salfa, Todos los derechos reservados. <br>
+                                Usted está recibiendo este correo electrónico como cliente Salfa. <br>
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
 
 
