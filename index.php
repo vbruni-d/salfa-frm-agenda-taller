@@ -15,7 +15,7 @@
     <form action="integrationScript.php" method="POST" 
         id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage"
         data-sap-cp-key="4D861AB588C702C4A01B7F0DBEAAF2D4B06FD66D"
-        class="sapCpContentPage sapCRLPage sapCpContentPageLoading" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
+        class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
         data-sap-cp-progres-enabled="false" data-sap-cp-version="20.0.5">
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
             data-sap-cp-key="141879550503ABEFD923F9E014C843CBC03CC139"
