@@ -437,7 +437,13 @@ input {
 }
 
 
-
+.btn-center{
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
+    align-items: center !important;
+}
 
 
 

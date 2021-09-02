@@ -153,7 +153,7 @@
                     style="">
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div style="display: flex; justify-content: center; margin-bottom: 30px; text-align: center; align-items: center;">
+                    <div class="btn-center">
                         <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button>
                     <div>
                     <span id="__text323"
