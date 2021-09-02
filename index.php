@@ -150,15 +150,22 @@
                 class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""></div>
+                    style="">
+                </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button><span id="__text323"
+                    <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+                        <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button>
+                    <div>
+                    <span id="__text323"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene
-                        todos los campos correctamente.</span><span id="__text324"
+                        todos los campos correctamente.</span>
+                    <span id="__text324"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error
-                        técnico.</span><span id="__text325"
+                        técnico.</span>
+                    <span id="__text325"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Gracias
-                        por confirmar</span></div>
+                        por confirmar</span>
+                </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
         </div>
