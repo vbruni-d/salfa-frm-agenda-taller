@@ -25,6 +25,8 @@
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
             data-sap-cp-key="141879550503ABEFD923F9E014C843CBC03CC139"
             class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
+
+            <!-- 
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W"
                 data-sap-cp-key="FB7F3AC6A6F1F388F5DE1F5C9C5646048C4D6C24"
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-SMTP_ADDR"
@@ -38,6 +40,8 @@
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
+            -->
+
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W"
                 data-sap-cp-key="96CF8B8A601882F02E73B31A7253C33326ACB144"
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-TELNR_MOBILE"
