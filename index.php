@@ -201,7 +201,7 @@
                                                 &nbsp;
                                             </td>
                                             <td align="right" width="30%">
-                                                <img src="./assets/6cc0f022-1988-4738-90a4-4b11c10b2a8b.png" alt="Salfa" width="100">
+                                                <img src="./assets/6cc0f022-1988-4738-90a4-4b11c10b2a8b.png" alt="Salfa" width="100" style="margin-right: 20px;">
                                             </td>
                                         </tr>
                                     </tbody>
@@ -213,20 +213,22 @@
                                 <table class="container" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="height:auto;max-width:600px;min-width:320px;">
                                     <tbody>
                                         <tr>
-                                            <td align="right" width="30%" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;">
-                                                Revisa nuestras sucursales: <br>
+                                            <td align="right" width="30%" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;white-space: nowrap;">
+                                                Revisa nuestras <br>sucursales: <br>
                                                 <a href="https://www.salfa.cl/" style="text-decoration:none;color:#002E5A;">
                                                     <strong style="font-size:18px;">salfa.cl</strong>
                                                 </a>
                                             </td>
 
-                                            <td width="40%" class="footerSpace">
+                                            <td width="60%" class="footerSpace">
                                                 &nbsp;
                                             </td>
-                                            <td align="right" width="19%" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;text-align:left;">
-                                                Contáctanos al: <br>
+                                            <td style="font-size:12px;">
+                                                <div style="text-align: right; margin-right: 30px !important;">
+                                                    <span>Contáctanos al:</span>
+                                                </div>
                                                 <a href="tel:6003606200" style="text-decoration:none;color:#002E5A;">
-                                                    <strong style="font-size:18px;">600 360 6200</strong>
+                                                    <strong style="font-size:18px; white-space: nowrap; margin-right: 30px;">600 360 6200</strong>
                                                 </a>
                                             </td>
                                         </tr>
