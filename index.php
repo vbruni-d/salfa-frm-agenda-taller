@@ -22,11 +22,15 @@
             <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
         </div>
 
+        <div>
+            <h5 class="instrucciones" style="font-size: 15pt; align:center;"> Confirma tu hora completando el siguiente formulario</h5>
+        </div>
+
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
             data-sap-cp-key="141879550503ABEFD923F9E014C843CBC03CC139"
             class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
 
-            <!-- 
+            
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W"
                 data-sap-cp-key="FB7F3AC6A6F1F388F5DE1F5C9C5646048C4D6C24"
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-SMTP_ADDR"
@@ -40,7 +44,7 @@
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
-            -->
+            
 
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W"
                 data-sap-cp-key="96CF8B8A601882F02E73B31A7253C33326ACB144"
