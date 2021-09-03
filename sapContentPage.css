@@ -180,7 +180,7 @@
 }
 
 .sapCpLabel:not(.sapCpLabelRequiredBefore).sapCpLabelRequired:after {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .sapCpLabel.sapCpLabelRequiredBefore:before {
@@ -193,7 +193,7 @@
 }
 
 .sapCpLabel.sapCpLabelRequiredBefore.sapCpLabelRequired:before {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .sapCpCheckBox ~ .sapCpLabel {
@@ -393,11 +393,13 @@ input {
     background-color: #ffffff;
     border: 1px solid;
     border-color: #c9c9c9;
-    display: block !important;
+    display: inline-block !important;
+    vertical-align: baseline !important;
 }
 
 .txt-input{
-    display: block !important;
+    display: inline-block !important;
+    vertical-align: baseline !important;
     margin-top: 7px;
     margin-bottom: 20px;
     width: 50%;
@@ -406,8 +408,10 @@ input {
 
 .input-lbl{
     display: inline-block !important;
+    vertical-align: baseline !important;
     width: 150px !important;
     text-align: left !important;
+    margin-top: 17px !important;
 }
 
 .txt-input:focus{
@@ -437,12 +441,15 @@ input {
 }
 
 
-.btn-center{
-    display: flex !important;
-    justify-content: center !important;
-    margin-bottom: 30px !important;
+.contenedor-btn{
     text-align: center !important;
-    align-items: center !important;
+    height: 100px !important;
+    margin-top: 20px !important;
+}
+
+.btn-principal:hover{
+    background-color: #00244d !important;
+    cursor: pointer !important;
 }
 
 

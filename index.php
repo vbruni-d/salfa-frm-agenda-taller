@@ -12,7 +12,7 @@
 </head>
 
 <body class="sapCpBody cuerpo" style="padding-bottom: 40px;">
-    <form action="integrationScript.php" method="POST" 
+    <form action="integrationScript.php" method="POST"
         id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage"
         data-sap-cp-key="4D861AB588C702C4A01B7F0DBEAAF2D4B06FD66D"
         class="sapCpContentPage sapCRLPage sapCpContentPageLoading formulario" data-sap-cp-lpkey="" data-sap-cp-prefill-data="true"
@@ -56,7 +56,7 @@
                 class="sapCpWidget sapCRLWidget sapCpTextWidget" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent instrucciones">
                     <p style="text-align: left">
-                        <span style="color: #121354">
+                        <span>
                         <strong>Seleccione solo una opción para su
                                 visita a taller agendada
                             </strong>
@@ -152,10 +152,12 @@
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
                     style="">
                 </div>
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div class="btn-center">
-                        <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button>
-                    <div>
+                <div class="sapCpWidgetContent sapCRLWidgetContent sapCRLWidgetContentLeft">
+                    <div class="contenedor-btn">
+                        <div class="btn-center">
+                            <button id="__button47" class="sapCpButton btn-principal" type="button">Enviar</button>
+                        </div>
+                    </div>
                     <span id="__text323"
                         class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene
                         todos los campos correctamente.</span>
@@ -194,7 +196,7 @@
                                                 <a href="https://www.youtube.com/user/SalfaChile">
                                                 <img src="./assets/da008e5e-2941-4576-b9f7-8e2df5d0c2a8.png" width="23" alt="Youtube"></a>
                                             </td>
-                        
+
                                             <td width="50%" class="footerSpaceRrss">
                                                 &nbsp;
                                             </td>
@@ -217,7 +219,7 @@
                                                     <strong style="font-size:18px;">salfa.cl</strong>
                                                 </a>
                                             </td>
-                    
+
                                             <td width="40%" class="footerSpace">
                                                 &nbsp;
                                             </td>
@@ -265,4 +267,3 @@
 </script>
 
 </html>
-
