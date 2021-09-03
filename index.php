@@ -22,7 +22,7 @@
             <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
         </div>
 
-        <div>
+        <div class="contenedor-btn">
             <h5 class="instrucciones" style="font-size: 15pt; align:center;"> Confirma tu hora completando el siguiente formulario</h5>
         </div>
 
