@@ -31,7 +31,7 @@
                         </strong></span>
                         <br>
                         <span><strong>
-                            <span style="font-size: 10pt; text-align:center;">Por favor complete sus datos en el formulario para mantenerse informado.</span></strong>
+                            <span style="font-size: 10pt; text-align:center; margin-top: 15px;">Por favor complete sus datos en el formulario para mantenerse informado.</span></strong>
                         </span>
                     </p>
                 </div>
