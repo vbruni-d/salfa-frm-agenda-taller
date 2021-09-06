@@ -19,7 +19,7 @@
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L" data-sap-cp-key="43B64AD93BA588CDF0CBB29DF6DE532538436A4B" class="sapCpLayout sapCRLLayout sapCRLLayoutVertical">
             
             <div style="display: flex; justify-content: center; margin-bottom: 50px;">
-                <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 200px;">
+                <img src="./assets/5774fcbd-8e46-4be1-babf-ea0d892eb853.png" style="width: 100px;">
             </div>
 
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="F893BD56F50A0C441799332E5C2AB7B9B253E51F" class="sapCpWidget sapCRLWidget sapCpTextWidget" data-sap-cp-wprogres-enabled="false">
