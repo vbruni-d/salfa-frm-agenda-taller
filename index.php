@@ -258,7 +258,7 @@
         
             var key = e.keyCode;
             
-            if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 48 && key <= 57) || (key == 107))) {
+            if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 48 && key <= 57) || (key == 107) || (key >= 96 && key <= 105) )) {
             
                 e.preventDefault();
             
