@@ -104,7 +104,7 @@
                 <div class="sapCpWidgetContent sapCRLWidgetContent contenedor-btn">
                     <div class="contenedor-btn">
                         <div class="btn-center">
-                            <button id="__button28" class="sapCpButton btn-principal" type="button" onclick="valthisform();">Enviar</button>
+                            <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
                         </div>
                     </div>
 
@@ -204,18 +204,6 @@
 
 <script>
 
-    function valthisform(){
-        var checkboxs=document.getElementsByName("fooby[1][]");
-        var okay=false;
-        for(var i=0,l=checkboxs.length;i<l;i++){
-            if(checkboxs[i].checked){
-                okay=true;
-                break;
-            }
-        }
-        if(!(okay))alert("Por favor seleccione una opción para su visita agendada.");
-    }
-
     function checkRut(rut) {
         // Despejar Puntos
         var valor = rut.value.replace('.','');
@@ -289,6 +277,30 @@
         });
 
     });
+
+
+
+
+    $("form").submit(function (e) {
+        var validationFailed = false;
+
+
+        var checkboxs=document.getElementsByName("fooby[1][]");
+        for(var i=0,l=checkboxs.length;i<l;i++){
+            if(checkboxs[i].checked){
+                validationFailed = true;
+                break;
+            }
+        }
+
+
+        if (validationFailed) {
+            e.preventDefault();
+            alert("Por favor seleccione una opción para su visita agendada.");
+            return false;
+        }
+    }); 
+
 
 
 </script>
