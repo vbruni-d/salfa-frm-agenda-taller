@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/cropped-favsalfa-180x180.png">
     <link type="text/css" rel="stylesheet" href="./sapContentPage.css">
     <script src="./sapContentPage.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <title>CNFRM_Hora_Taller</title>
+    <title>Agenda taller</title>
 </head>
 
 <body class="sapCpBody cuerpo">
@@ -250,21 +251,21 @@
 
         $('#__input26').keydown(function (e) {
 
-        if (e.shiftKey || e.ctrlKey || e.altKey) {
-        
-            e.preventDefault();
-            
-        } else {
-        
-            var key = e.keyCode;
-            
-            if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 48 && key <= 57) || (key == 107) || (key >= 96 && key <= 105) )) {
+            if (e.shiftKey || e.ctrlKey || e.altKey) {
             
                 e.preventDefault();
+                
+            } else {
             
-            }
+                var key = e.keyCode;
+                
+                if (!((key == 8) || (key == 46) || (key >= 35 && key <= 40) || (key >= 48 && key <= 57) || (key == 107) || (key >= 96 && key <= 105) )) {
+                
+                    e.preventDefault();
+                
+                }
 
-        }
+            }
         
         });
 

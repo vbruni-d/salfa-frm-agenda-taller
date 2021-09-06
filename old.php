@@ -23,7 +23,7 @@
         </div>
 
         <div class="contenedor-btn">
-            <h5 class="instrucciones" style="font-size: 15pt; align:center;"> Confirma tu hora completando el siguiente formulario</h5>
+            <h5 class="instrucciones" style="font-size: 15pt; text-align:center;"> Confirma tu hora completando el siguiente formulario</h5>
         </div>
 
         <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L"
@@ -36,7 +36,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-SMTP_ADDR"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""><label id="__label116" class="sapCpLabel sapCpLabelRequired input-lbl "
+                    ><label id="__label116" class="sapCpLabel sapCpLabelRequired input-lbl "
                         for="__input65">Correo electrónico</label></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <input id="__input65" class="sapCpInput txt-input" type="email" required="required" maxlength="241"
@@ -51,7 +51,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-TELNR_MOBILE"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""><label id="__label117" class="sapCpLabel sapCpLabelRequired input-lbl"
+                    ><label id="__label117" class="sapCpLabel sapCpLabelRequired input-lbl"
                         for="__input66">Teléfono celular</label></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <input id="__input66" class="sapCpInput txt-input" type="tel" required="required" maxlength="30"
@@ -77,7 +77,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""><label id="__label118" class="sapCpLabel" for="__down39">Agendamiento</label>
+                    ><label id="__label118" class="sapCpLabel" for="__down39">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down39" class="sapCpDropDown">
@@ -92,7 +92,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""><label id="__label119" class="sapCpLabel" for="__down40">Agendamiento</label>
+                    ><label id="__label119" class="sapCpLabel" for="__down40">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down40" class="sapCpDropDown">
@@ -107,7 +107,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetHidden sapCpCInteractionAttribute-YY1_AGENDAMIENTO_MIA sapCpContactAttribute-"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""><label id="__label120" class="sapCpLabel" for="__down41">Agendamiento</label>
+                    ><label id="__label120" class="sapCpLabel" for="__down41">Agendamiento</label>
                 </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <select id="__down41" class="sapCpDropDown">
@@ -122,7 +122,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""></div>
+                    ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box39" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label121"
                         class="sapCpLabel sapCpLabelRequiredBefore">Confirma hora agenda </label>
@@ -134,7 +134,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""></div>
+                    ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box40" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label122"
                         class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller </label>
@@ -146,7 +146,7 @@
                 class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style=""></div>
+                    ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div id="__box41" class="sapCpCheckBox radio"><input type="checkbox" class="radio" name="fooby[1][]" value="1"></div><label id="__label123"
                         class="sapCpLabel sapCpLabelRequiredBefore">Cancelar hora taller </label>
@@ -158,7 +158,7 @@
                 class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01"
                 data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"
-                    style="">
+                    >
                 </div>
                 <div class="sapCpWidgetContent sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <div class="contenedor-btn">
