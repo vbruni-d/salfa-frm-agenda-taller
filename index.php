@@ -333,6 +333,7 @@
         if(!valid) {
             alert("Por favor seleccione una opción para su visita agendada.");
             e.preventDefault();
+            return false;
         }
 
     } );
