@@ -38,7 +38,7 @@
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E4A13AEAA31960EB67AA290B0B3F70AF4931800A" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ><label id="__label49" class="sapCpLabel sapCpLabelRequired input-lbl" for="__input25">Rut</label></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <input id="__input25" class="sapCpInput txt-input" type="text" required="required" maxlength="10" oninput="checkRut(this)" name="rut">
+                    <input id="__input25" class="sapCpInput txt-input" type="text" required="required" maxlength="10" oninput="checkRut(this);" name="rut">
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
@@ -104,7 +104,7 @@
                 <div class="sapCpWidgetContent sapCRLWidgetContent contenedor-btn">
                     <div class="contenedor-btn">
                         <div class="btn-center">
-                            <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
+                            <button id="__button28" class="sapCpButton btn-principal" type="button" onclick="valthisform();">Enviar</button>
                         </div>
                     </div>
 
@@ -213,8 +213,7 @@
                 break;
             }
         }
-        if(okay)alert("Thank you for checking a checkbox");
-        else alert("Please check a checkbox");
+        if(!(okay))alert("Por favor seleccione una opción para su visita agendada.");
     }
 
     function checkRut(rut) {
