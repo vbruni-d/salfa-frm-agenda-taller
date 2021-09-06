@@ -93,7 +93,13 @@
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-10W" data-sap-cp-key="A865AD5BF22AB09659A443F84E115164BF00A29F" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft contenedor-btn">
-                    <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
+                    <div class="contenedor-btn">
+                        <div class="btn-center">
+                            <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
+                        </div>
+                    </div>
+
+                    
                     <span id="__text278" class="sapCpText sapCpButtonWidgetExtraText sapCpMissingMandatoryFieldText sapCpMissingMandatoryFieldLabel">Rellene todos los campos correctamente.</span>
                     <span id="__text279" class="sapCpText sapCpButtonWidgetExtraText sapCpErrorMessageText">Se ha producido un error contactar a soporte: soporte@salfa.cl</span>
                     <span id="__text280" class="sapCpText sapCpButtonWidgetExtraText sapCpSuccessMessageText sapCpSuccessMessageLabel">Gracias por confirmar</span>
