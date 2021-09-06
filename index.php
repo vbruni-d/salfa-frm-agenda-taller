@@ -284,13 +284,15 @@
 
 
     $(document).ready(function() {
-        $('form').on('submit', function(e){
+        $('#application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage').on('submit', function(e){
             var checkboxs=document.getElementsByName("fooby[1][]");
             var valid=false;
             for(var i=0,l=checkboxs.length;i<l;i++){
                 if(checkboxs[i].checked){
                     valid=true;
                     break;
+                } else{
+                    alert("no")
                 }
             }
 
