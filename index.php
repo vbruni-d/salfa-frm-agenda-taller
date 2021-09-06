@@ -329,6 +329,12 @@
                 alert("no")
             }
         }
+
+        if(!valid) {
+            alert("Por favor seleccione una opción para su visita agendada.");
+            e.preventDefault();
+        }
+
     } );
 
 </script>
