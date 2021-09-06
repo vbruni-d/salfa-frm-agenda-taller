@@ -289,6 +289,7 @@
         var checkboxs=document.getElementsByName("fooby[1][]");
         for(var i=0,l=checkboxs.length;i<l;i++){
             if(checkboxs[i].checked){
+                alert("Por favor seleccione una opción para su visita agendada.");
                 validationFailed = true;
                 break;
             }
