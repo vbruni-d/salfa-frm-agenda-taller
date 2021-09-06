@@ -10,7 +10,7 @@
         CSRFTokenHeader: "X-CSRF-Token",
         AppendScenarioParameter: "",
         Tenant: "",
-        Version: "11.19.1"
+        Version: "20.0.9"
     };
     var R = {
         getConfig: function(c) {
@@ -150,6 +150,7 @@
                 if (r && r.ContactPersonalizationData && r.ContactPersonalizationData.results) {
                     this.processPersonalizationData(c, r.ContactPersonalizationData.results);
                 }
+                this.processDataAndPrepareProgresProfileWidget(c);
                 this.toggleLoading(c, false);
             },
             processPersonalizationData: function(c, p) {
@@ -161,6 +162,43 @@
                     if (W) {
                         R.Widget.applyPersonalization(W, P.Value);
                     }
+                }
+            },
+            processDataAndPrepareProgresProfileWidget: function(c) {
+                var w = this.getWidgets(c),
+                    i, W, m = R.Setting.get(c, "progres-max"),
+                    M = parseInt(m, 10);
+                if (R.Setting.get(c, "prefill-data") !== "true") {
+                    return;
+                }
+                if (R.Setting.get(c, "progres-enabled") !== "true") {
+                    return;
+                }
+                var p = [];
+                for (i = 0; i < w.length; i++) {
+                    W = R.Widget.addProgressiveEnabledWidgets(w[i]);
+                    if (W !== null && W !== undefined) {
+                        p.push(W);
+                    }
+                }
+                p.sort(function(a, b) {
+                    return a.widgetPrio - b.widgetPrio;
+                });
+                for (var I = 0; I < M; I++) {
+                    if (R.CSS.hasClass(p[I].widget, "sapCpWidgetMandatory")) {
+                        if (R.Node.getFirstWithClassName(p[I].widget, "sapCpInput")) {
+                            R.Node.getFirstWithClassName(p[I].widget, "sapCpInput").setAttribute("required", "required");
+                        }
+                        if (R.Node.getFirstWithClassName(p[I].widget, "sapCpDropDown")) {
+                            Array.from(R.Node.getAllWithClassName(p[I].widget, "sapCpDropDown")).forEach(function(s) {
+                                s.setAttribute("required", "required");
+                            });
+                        }
+                        if (R.Node.getFirstWithClassName(p[I].widget, "sapCpCheckBox")) {
+                            R.Node.getFirstWithClassName(p[I].widget, "sapCpCheckBox").setAttribute("required", "required");
+                        }
+                    }
+                    R.CSS.toggleClass(p[I].widget, "sapCpWidgetHidden", false);
                 }
             },
             handleSubmitEvent: function(e) {
@@ -180,7 +218,7 @@
                     R.Widget.collectAnswer(W, o, function(A) {
                         if (A) {
                             a.push(A);
-                        } else if (A === false) {
+                        } else if (A === false && !R.CSS.hasClass(W, "sapCpWidgetHidden")) {
                             m = true;
                         } else if (A === null) {
                             I = true;
@@ -278,6 +316,29 @@
                     R.CaptchaWidget.collectAnswer(w, h);
                 }
             },
+            addProgressiveEnabledWidgets: function(w) {
+                var W = w;
+                if (!this.isInputWidget(w)) {
+                    return null;
+                }
+                if (R.Setting.get(W, "wProgres-enabled") === "false") {
+                    return null;
+                }
+                var i = R.Node.getFirstWithClassName(W, "sapCpInput");
+                if (R.Node.getFirstWithClassName(W, "sapCpDropDown")) {
+                    i = R.Node.getFirstWithClassName(W, "sapCpDropDown");
+                }
+                if (R.Node.getFirstWithClassName(W, "sapCpCheckBox")) {
+                    i = R.Node.getFirstWithClassName(W, "sapCpCheckBox");
+                }
+                if (i && !i.value) {
+                    return {
+                        widgetPrio: R.Setting.get(W, "wProgres-prio"),
+                        widget: W
+                    };
+                }
+                return null;
+            },
             isMandatory: function(w) {
                 return R.CSS.hasClass(w, "sapCpWidgetMandatory");
             },
@@ -329,6 +390,21 @@
                 }
                 if (R.CSS.hasClass(i, "sapCpContactAttribute-REGION")) {
                     this.prepareRegionNode(i);
+                }
+                if (R.Setting.get(i, "wProgres-enabled") === "true") {
+                    R.CSS.toggleClass(i, "sapCpWidgetHidden", false);
+                    if (R.CSS.hasClass(i, "sapCpWidgetMandatory")) {
+                        if (R.Node.getFirstWithClassName(i, "sapCpInput")) {
+                            R.Node.getFirstWithClassName(i, "sapCpInput").removeAttribute("required");
+                        }
+                        if (R.Node.getFirstWithClassName(i, "sapCpDropDown")) {
+                            var s = R.Node.getAllWithClassName(i, "sapCpDropDown");
+                            Array.from(s).forEach(this.appendChildNodes);
+                        }
+                        if (R.Node.getFirstWithClassName(i, "sapCpCheckBox")) {
+                            R.Node.getFirstWithClassName(i, "sapCpCheckBox").removeAttribute("required");
+                        }
+                    }
                 }
                 if (!I) {
                     return;
@@ -455,6 +531,13 @@
                         this.updateDropDownValue(D);
                     }
                 }
+            },
+            appendChildNodes: function(s) {
+                var S = R.Node.createEmptyOptionElement();
+                if (s.querySelectorAll("option[selected = 'selected']").length === 0) {
+                    s.appendChild(S);
+                }
+                s.removeAttribute("required");
             },
             handleInputFocusOutEvent: function(e) {
                 var i = e.target,
@@ -1171,6 +1254,13 @@
                     return N[0];
                 }
                 return null;
+            },
+            createEmptyOptionElement: function(r) {
+                var e;
+                e = document.createElement("option");
+                e.value = "";
+                e.selected = "selected";
+                return e;
             }
         },
         CSS: {
