@@ -27,11 +27,11 @@
                 <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent instrucciones" style="display: flex; justify-content: center; align-items: center;">
                     <p>
                         <span><strong>
-                            <span style="font-size: 14pt; text-align:center;">Cuenta con una hora agendada para taller próximamente,&nbsp;</span>
+                            <span style="font-size: 16pt; text-align:center;">Cuenta con una hora agendada para taller próximamente.</span>
                         </strong></span>
                         <br>
                         <span><strong>
-                            <span style="font-size: 10pt; text-align:center;">Por favor complete sus datos en el formulario para mantenerse informado.&nbsp;</span></strong>
+                            <span style="font-size: 10pt; text-align:center;">Por favor complete sus datos en el formulario para mantenerse informado.</span></strong>
                         </span>
                     </p>
                 </div>
