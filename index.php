@@ -92,8 +92,8 @@
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-10W" data-sap-cp-key="A865AD5BF22AB09659A443F84E115164BF00A29F" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent"></div>
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent contenedor-btn">
+                <div class="sapCpWidgetContent sapCRLWidgetContent"></div>
+                <div class="sapCpWidgetContent sapCRLWidgetContent contenedor-btn">
                     <div class="contenedor-btn">
                         <div class="btn-center">
                             <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
