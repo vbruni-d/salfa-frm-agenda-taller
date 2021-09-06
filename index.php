@@ -81,21 +81,21 @@
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-7W" data-sap-cp-key="EDA564FA942F5A91544E976B6B320E61CE2A0B99" class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div id="__box15" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio"></div><label id="__label54" class="sapCpLabel sapCpLabelRequiredBefore">Confirmar hora para taller</label>
+                    <div id="__box15" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio" required></div><label id="__label54" class="sapCpLabel sapCpLabelRequiredBefore">Confirmar hora para taller</label>
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-8W" data-sap-cp-key="188C33C73D9A88D88F1A292639A7E792B7991CE3" class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div id="__box16" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio"></div><label id="__label55" class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller</label>
+                    <div id="__box16" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio" required></div><label id="__label55" class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller</label>
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-9W" data-sap-cp-key="0400B82A53B3267D54E9196EF75554967DA0AA3F" class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div id="__box17" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio"></div><label id="__label56" class="sapCpLabel sapCpLabelRequiredBefore">Cancelar hora para taller</label>
+                    <div id="__box17" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio" required></div><label id="__label56" class="sapCpLabel sapCpLabelRequiredBefore">Cancelar hora para taller</label>
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
@@ -254,7 +254,16 @@
         rut.setCustomValidity('');
     }
 
-
+    $(function(){
+        var requiredCheckboxes = $('.fooby[1][] :checkbox[required]');
+        requiredCheckboxes.change(function(){
+            if(requiredCheckboxes.is(':checked')) {
+                requiredCheckboxes.removeAttr('required');
+            } else {
+                requiredCheckboxes.attr('required', 'required');
+            }
+        });
+    });
 
     $(function() {
 
@@ -282,61 +291,6 @@
 
 
 
-
-    $(document).ready(function() {
-        $('#application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage').on('submit', function(e){
-            var checkboxs=document.getElementsByName("fooby[1][]");
-            var valid=false;
-            for(var i=0,l=checkboxs.length;i<l;i++){
-                if(checkboxs[i].checked){
-                    valid=true;
-                    break;
-                } else{
-                    alert("no")
-                }
-            }
-
-            if(!valid) {
-                alert("Por favor seleccione una opción para su visita agendada.");
-                e.preventDefault();
-            }
-        });
-    });
-
-
-    function validateForm() {
-        var checkboxs=document.getElementsByName("fooby[1][]");
-        var valid=false;
-        for(var i=0,l=checkboxs.length;i<l;i++){
-            if(checkboxs[i].checked){
-                valid=true;
-                break;
-            } else{
-                alert("no")
-            }
-        }
-    }
-
-    $("form").on('action',function(e){
-        var checkboxs=document.getElementsByName("fooby[1][]");
-        var valid=false;
-        for(var i=0,l=checkboxs.length;i<l;i++){
-            if(checkboxs[i].checked){
-                valid=true;
-                alert("si")
-                break;
-            } else{
-                alert("no")
-            }
-        }
-
-        if(!valid) {
-            alert("Por favor seleccione una opción para su visita agendada.");
-            e.preventDefault();
-            return false;
-        }
-
-    } );
 
 </script>
 
