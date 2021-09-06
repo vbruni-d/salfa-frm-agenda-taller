@@ -255,7 +255,7 @@
     }
 
     $(function(){
-        var requiredCheckboxes = $('.fooby[1][] :checkbox[required]');
+        var requiredCheckboxes = $('input:checkbox[required]');
         requiredCheckboxes.change(function(){
             if(requiredCheckboxes.is(':checked')) {
                 requiredCheckboxes.removeAttr('required');
