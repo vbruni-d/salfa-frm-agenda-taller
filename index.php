@@ -281,7 +281,8 @@
 
 
 
-    $("form").submit(function (e) {
+    $("#application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage").submit(function (e) {
+        
         var validationFailed = false;
 
 
