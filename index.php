@@ -317,7 +317,7 @@
         }
     }
 
-    $("button").on('click',function(e){
+    $("form").on('action',function(e){
         var checkboxs=document.getElementsByName("fooby[1][]");
         var valid=false;
         for(var i=0,l=checkboxs.length;i<l;i++){
