@@ -22,8 +22,8 @@
             </div>
 
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="F893BD56F50A0C441799332E5C2AB7B9B253E51F" class="sapCpWidget sapCRLWidget sapCpTextWidget" data-sap-cp-wprogres-enabled="false">
-                <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent">
-                    <p><span style="color: #000080"><strong><span style="font-size: 14pt">Cuenta con una hora agendada para taller próximamente,&nbsp;</span></strong></span><br><span style="color: #000080"><strong><span style="font-size: 14pt">Por favor complete sus datos en el formulario para mantenerse informado.&nbsp;</span></strong></span></p>
+                <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent instrucciones">
+                    <p><span><strong><span style="font-size: 14pt">Cuenta con una hora agendada para taller próximamente,&nbsp;</span></strong></span><br><span style="color: #000080"><strong><span style="font-size: 14pt">Por favor complete sus datos en el formulario para mantenerse informado.&nbsp;</span></strong></span></p>
                 </div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E4A13AEAA31960EB67AA290B0B3F70AF4931800A" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
@@ -91,8 +91,8 @@
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-10W" data-sap-cp-key="A865AD5BF22AB09659A443F84E115164BF00A29F" class="sapCpWidget sapCRLWidget sapCpButtonWidget" data-sap-cp-follow-up-action="01" data-sap-cp-wprogres-enabled="false">
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft"></div>
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft contenedor-btn">
+                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent"></div>
+                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent contenedor-btn">
                     <div class="contenedor-btn">
                         <div class="btn-center">
                             <button id="__button28" class="sapCpButton btn-principal" type="button">Enviar</button>
