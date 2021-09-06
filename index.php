@@ -204,6 +204,8 @@
 
 <script>
 
+    
+
     function checkRut(rut) {
         // Despejar Puntos
         var valor = rut.value.replace('.','');
@@ -281,27 +283,23 @@
 
 
 
-    $("#application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage").submit(function (e) {
-        
-        var validationFailed = false;
-
-
-        var checkboxs=document.getElementsByName("fooby[1][]");
-        for(var i=0,l=checkboxs.length;i<l;i++){
-            if(checkboxs[i].checked){
-                alert("Por favor seleccione una opción para su visita agendada.");
-                validationFailed = true;
-                break;
+    $(document).ready(function() {
+        $('form').on('submit', function(e){
+            var checkboxs=document.getElementsByName("fooby[1][]");
+            var valid=false;
+            for(var i=0,l=checkboxs.length;i<l;i++){
+                if(checkboxs[i].checked){
+                    valid=true;
+                    break;
+                }
             }
-        }
 
-
-        if (validationFailed) {
-            e.preventDefault();
-            alert("Por favor seleccione una opción para su visita agendada.");
-            return false;
-        }
-    }); 
+            if(!valid) {
+                alert("Por favor seleccione una opción para su visita agendada.");
+                e.preventDefault();
+            }
+        });
+    });
 
 
 
