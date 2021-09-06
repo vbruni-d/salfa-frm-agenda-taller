@@ -204,6 +204,19 @@
 
 <script>
 
+    function valthisform(){
+        var checkboxs=document.getElementsByName("fooby[1][]");
+        var okay=false;
+        for(var i=0,l=checkboxs.length;i<l;i++){
+            if(checkboxs[i].checked){
+                okay=true;
+                break;
+            }
+        }
+        if(okay)alert("Thank you for checking a checkbox");
+        else alert("Please check a checkbox");
+    }
+
     function checkRut(rut) {
         // Despejar Puntos
         var valor = rut.value.replace('.','');
