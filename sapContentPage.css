@@ -60,7 +60,7 @@
 }
 
 .sapCpWidget ~ .sapCpWidget {
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .sapCpWidgetContentLeft {
@@ -84,19 +84,19 @@
 }
 
 .sapLandingPage .sapCpWidgetContentLeft .sapCpLabel {
-    margin-top: 6px;
+    margin-top: 0px;
     margin-right: 10px;
     min-width: 70px;
 }
 
 .sapLandingPage .sapCpWidget:not(.sapCpCheckBoxElementWidget) .sapCpWidgetContentLeft .sapCpLabel {
-    margin-top: 6px;
+    margin-top: 0px;
     margin-right: 10px;
     min-width: 70px;
 }
 
 .sapCpWidget:not(.sapCpCheckBoxElementWidget) .sapCpWidgetContentLeft .sapCpLabel {
-    margin-top: 8px;
+    margin-top: 0px;
     margin-right: 10px;
 }
 
@@ -385,6 +385,32 @@
     box-shadow: 10px 5px 40px #b0b0b0;
 }
 
+.contenedor-titulo{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+
+.titulo{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center !important;
+    color: var(--color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.subtitulo{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    color: var(--color);
+    font-weight: bold;
+    font-size: 12pt;
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
 
 
 input {
@@ -401,8 +427,8 @@ input {
 .txt-input{
     display: inline-block !important;
     vertical-align: baseline !important;
-    margin-top: 7px;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 50%;
     height: 20px;
 }
@@ -412,7 +438,8 @@ input {
     vertical-align: baseline !important;
     width: 150px !important;
     text-align: left !important;
-    margin-top: 17px !important;
+    margin-top: 10px !important;
+    width: 110px !important;
 }
 
 .txt-input:focus{
@@ -422,14 +449,10 @@ input {
 
 .instrucciones{
     color: var(--color);
-    margin-top: 15px;
-    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 12pt;
 }
 
-
-.contenedor-accion{
-    margin-bottom: 40px;
-}
 
 .btn-principal{
     background-color: #002855;
@@ -438,7 +461,6 @@ input {
     width: 120px;
     color: #ffffff;
     border: none;
-    margin-bottom: 50px !important;
 }
 
 
@@ -446,6 +468,7 @@ input {
     text-align: center !important;
     height: 100px !important;
     margin-top: 20px !important;
+    margin-bottom: -40px !important;
 }
 
 .btn-principal:hover{
