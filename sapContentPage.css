@@ -135,8 +135,9 @@
 }
 
 .sapCpButtonWidget .sapCpSuccessMessageLabel {
-    display: block;
+    display: none;
     color: green;
+    visibility: hidden;
 }
 
 .sapCpContentPage:not(.sapCpSubmitCompleted) .sapCpButtonWidget .sapCpSuccessMessageLabel {

@@ -24,8 +24,16 @@
             </div>
 
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-0W" data-sap-cp-key="F893BD56F50A0C441799332E5C2AB7B9B253E51F" class="sapCpWidget sapCRLWidget sapCpTextWidget" data-sap-cp-wprogres-enabled="false">
-                <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent instrucciones">
-                    <p><span><strong><span style="font-size: 14pt">Cuenta con una hora agendada para taller próximamente,&nbsp;</span></strong></span><br><span><strong><span style="font-size: 14pt">Por favor complete sus datos en el formulario para mantenerse informado.&nbsp;</span></strong></span></p>
+                <div class="sapCpWidgetContentNoIndent sapCRLWidgetContentNoIndent instrucciones" style="display: flex; justify-content: center; align-items: center;">
+                    <p>
+                        <span><strong>
+                            <span style="font-size: 14pt; text-align:center;">Cuenta con una hora agendada para taller próximamente,&nbsp;</span>
+                        </strong></span>
+                        <br>
+                        <span><strong>
+                            <span style="font-size: 10pt; text-align:center;">Por favor complete sus datos en el formulario para mantenerse informado.&nbsp;</span></strong>
+                        </span>
+                    </p>
                 </div>
             </div>
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E4A13AEAA31960EB67AA290B0B3F70AF4931800A" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
