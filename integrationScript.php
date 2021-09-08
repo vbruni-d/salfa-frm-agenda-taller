@@ -1,54 +1,15 @@
 <?php
 
-/**
- * This class is an example implementation
- * of a PHP based form integration.
- * Note: This is a template, which is used at your own risk.
- */
 class LandingPageIntegration
 {
-
-    /**
-     * The BasePath is the URL for the system
-     * including the form result service.
-     *
-     * @var string
-     */
+    
     const BASE_PATH = "https://my301988-api.s4hana.ondemand.com/sap/opu/odata/sap/CUAN_CONTENT_PAGE_RESULT_SRV/";
-
-    /**
-     * The ResultHeadersPath is the name of the ResultHeaders entity
-     * which is used for processing the form results.
-     *
-     * @var string
-     */
     const RESULT_HEADERS_PATH = "ResultHeaders";
-
-    /**
-     * The credentials are used for authenticating on the system.
-     * This is usually a dedicated system or communication user
-     * with the integration role assigned.
-     *
-     * @var string
-     */
     const CREDENTIALS = "MKT_LP_FORM_RESULT_USER:ZtilqxVHxeH>ZDWjlrouiMzwQDwvecTpulMnNgg7";
 
-    /**
-     * The cookies are remembered between consecutive OData requests
-     * to implement the session handling
-     * and security measures of the SAP Gateway.
-     *
-     * @var string
-     */
     private $cookies = "";
 
-    /**
-     * The CSRF-Token is required for the OData service communication
-     * and must be fetched before it is possible
-     * to perform any changing requests such as 'POST'.
-     *
-     * @var string
-     */
+
     private $csrfToken = null;
 
     /**

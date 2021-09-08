@@ -32,11 +32,16 @@
                 <div>
                     <p class="subtitulo">Por favor complete sus datos en el formulario para mantenerse informado.</p>
                 </div>
-
             </div>
 
-            <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" data-sap-cp-key="E4A13AEAA31960EB67AA290B0B3F70AF4931800A" class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" data-sap-cp-wprogres-enabled="false">
-                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ><label id="__label49" class="sapCpLabel sapCpLabelRequired input-lbl" for="__input25">Rut</label></div>
+            <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-1W" 
+                data-sap-cp-key="E4A13AEAA31960EB67AA290B0B3F70AF4931800A" 
+                class="sapCpWidget sapCRLWidget sapCpInputWidget sapCpWidgetMandatory sapCpContactAttribute-YY1_RUT_ENH" 
+                data-sap-cp-wprogres-enabled="false">
+                <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" >
+                    <label id="__label49" class="sapCpLabel sapCpLabelRequired input-lbl" 
+                    for="__input25">Rut</label>
+                </div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
                     <input id="__input25" class="sapCpInput txt-input" type="text" required="required" maxlength="10" oninput="checkRut(this);" name="rut">
                 </div>
@@ -88,7 +93,10 @@
             <div id="application-MarketingContent-manage-component---ObjectView--DesignView--ContentPage-0L-8W" data-sap-cp-key="188C33C73D9A88D88F1A292639A7E792B7991CE3" class="sapCpWidget sapCRLWidget sapCpInteractionWidget sapCpCheckBoxElementWidget" data-sap-cp-wprogres-enabled="false">
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft" ></div>
                 <div class="sapCpWidgetContent sapCpWidgetContentLeft sapCRLWidgetContent sapCRLWidgetContentLeft">
-                    <div id="__box16" class="sapCpCheckBox radio"><input type="checkbox" name="fooby[1][]" value="1" class="radio" required></div><label id="__label55" class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller</label>
+                    <div id="__box16" class="sapCpCheckBox radio">
+                        <input type="checkbox" name="fooby[1][]" value="1" class="radio" required>
+                    </div>
+                    <label id="__label55" class="sapCpLabel sapCpLabelRequiredBefore">Reagendar hora para taller</label>
                 </div>
                 <div class="sapCpWidgetFixContent sapCRLWidgetFixContent"></div>
             </div>
